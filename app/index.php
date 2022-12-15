@@ -64,16 +64,16 @@ if (!$_SESSION['app']) // no app selected yet
 <head>
     <base href="">
     <title>Keyauth - Open Source Auth</title>
-    <link rel="shortcut icon" href="https://cdn.keyauth.cc/v2/assets/media/logos/favicon.ico" />
+    <link rel="shortcut icon" href="./v2/assets/media/logos/favicon.ico" />
 	<meta name="viewport" content="width=device-width, initial-scale=1">
     <!--begin::Page Vendor Stylesheets(used by this page)-->
-    <link href="https://cdn.keyauth.cc/v2/assets/plugins/custom/datatables/datatables.bundle.css" rel="stylesheet"
+    <link href="./v2/assets/plugins/custom/datatables/datatables.bundle.css" rel="stylesheet"
         type="text/css" />
     <!--end::Page Vendor Stylesheets-->
     <!--begin::Global Stylesheets Bundle(used by all pages)-->
-    <link href="https://cdn.keyauth.cc/v2/assets/plugins/global/plugins.dark.bundle.css" rel="stylesheet"
+    <link href="./v2/assets/plugins/global/plugins.dark.bundle.css" rel="stylesheet"
         type="text/css" />
-    <link href="https://cdn.keyauth.cc/v2/assets/css/style.dark.bundle.css" rel="stylesheet" type="text/css" />
+    <link href="./v2/assets/css/style.dark.bundle.css" rel="stylesheet" type="text/css" />
 
     <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/@mdi/font@6.9.96/css/materialdesignicons.min.css">
     <style>

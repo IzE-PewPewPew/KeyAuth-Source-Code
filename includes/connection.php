@@ -18,9 +18,9 @@ if ($link === false) {
 // set character set to ensure greek characters don't cause issues
 mysqli_query($link, "SET NAMES 'utf8'");
 
-$logwebhook = ""; // discord webhook which receives login logs and keys created
+$logwebhook = "https://discord.com/api/webhooks/1052932112489136188/6mbeyNrBu9ko4tGIexHGWsVH-n4OJvnH9JdWFy-D0nKyIY7GzJAn6IlzokCdfn9C7Zlg"; // discord webhook which receives login logs and keys created
 
-$adminwebhook = ""; // discord webhook which receives admin actions
+$adminwebhook = "https://discord.com/api/webhooks/1052932112489136188/6mbeyNrBu9ko4tGIexHGWsVH-n4OJvnH9JdWFy-D0nKyIY7GzJAn6IlzokCdfn9C7Zlg"; // discord webhook which receives admin actions
 
 $webhookun = "KeyAuth Logs"; // webhook username
 

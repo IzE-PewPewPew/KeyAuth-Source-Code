@@ -764,7 +764,7 @@ switch (hex2bin($_POST['type'])) {
 
             // Avatar URL.
             // Uncoment to replace image set in webhook
-            "avatar_url" => "https://cdn.keyauth.cc/front/assets/img/favicon.png",
+            "avatar_url" => "./front/assets/img/favicon.png",
 
             // Embeds Array
             "embeds" => [
